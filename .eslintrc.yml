@@ -88,13 +88,11 @@ rules:
   no-useless-escape: warn
   no-warning-comments: warn
   no-with: warn
-  require-await: warn
   wrap-iife: error
   yoda: warn
   strict: error
   array-bracket-spacing: [warn, always]
   brace-style: warn
-  camelcase: warn
   capitalized-comments: warn
   comma-dangle: warn
   comma-spacing: warn
