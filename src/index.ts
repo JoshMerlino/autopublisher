@@ -39,6 +39,9 @@ Bot.client.on("messageCreate", async function(message) {
 		// Get enabled channels
 		let { enabled_channels } = Bot.storage.value;
 
+		// Ignore people who dont have permission
+		if (!message.member?.permissions.has("MANAGE_MESSAGES")) return;
+
 		// If its the command
 		if (Bot.aliases.includes(command.toLowerCase())) {
 
