@@ -28,7 +28,7 @@
         "typescript-eslint": "0.0.1-alpha.0"
     },
     "dependencies": {
-        "chalk": "^5.0.1",
+        "chalk": "^5.1.2",
         "discord.js": "^14.7.1",
         "dotenv": "^16.0.3",
         "filestore-json": "^1.1.8"
