@@ -30,7 +30,7 @@
     "dependencies": {
         "chalk": "^5.0.1",
         "discord.js": "^14.14.1",
-        "dotenv": "^16.4.1",
+        "dotenv": "^16.4.2",
         "filestore-json": "^1.1.8"
     }
 }
